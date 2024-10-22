@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_home_state"
+        android:title="Beranda" />
+    <!--        perbaikan tulisan navbar dari 'home' ke 'beranda'-->
+
+    <item
+        android:id="@+id/mutasiFragment"
+        android:icon="@drawable/mutasi"
+        android:title="Mutasi" />
+    <item
+        android:id="@+id/inboxFragment"
+        android:icon="@drawable/inbox"
+
+        android:title="Inbox" />
+
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/ic_profile_state"
+
+        android:title="Profile" />
+
+</menu>
